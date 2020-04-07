@@ -15,7 +15,7 @@ sudo mkswap /swapfile #formatting the swapfile
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab #Adding entry in fstab
 sudo swapon /swapfile #To enable the Swap
 
-SPINNAKER_VERSION=1.17.6 #Spinnaker version
+SPINNAKER_VERSION=1.19.4 #Spinnaker version
 curl -Os https://raw.githubusercontent.com/spinnaker/halyard/master/install/debian/InstallHalyard.sh
 sudo bash InstallHalyard.sh --user vagrant -y
 . /home/vagrant/.bashrc
