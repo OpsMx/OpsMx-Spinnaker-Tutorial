@@ -112,3 +112,7 @@ fi
 sudo hal config version edit --version $SPINNAKER_VERSION
 
 sudo hal deploy apply
+sleep 10
+echo ""
+echo "Spinnaker Installed Successfully - Open Browser And Access The Spinnaker"
+echo ""
