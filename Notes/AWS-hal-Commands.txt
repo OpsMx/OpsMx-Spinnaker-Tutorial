@@ -1,4 +1,10 @@
 
+s3
+------
+hal config storage s3 edit --access-key-id $YOUR_SECRET_KEY_ID --secret-access-key
+hal config storage edit --type s3
+
+
 AWS Provider
 --------------
 hal config provider aws edit --access-key-id $YOUR_SECRET_KEY_ID --secret-access-key
