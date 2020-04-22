@@ -1,6 +1,6 @@
 
 hal config ci jenkins enable
-hal config ci jenkins master add Jenkins-Master --address http://<digitaloceanip>:8080 --username $USERNAME --password
+hal config ci jenkins master add Jenkins-Master --address http://{IPAddress}:8080 --username $USERNAME --password
 hal config ci jenkins master edit Jenkins-Master --csrf true
 
 
