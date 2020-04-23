@@ -1,3 +1,0 @@
-#!/bin/sh
-systemctl enable node-demo-app
-systemctl start node-demo-app
