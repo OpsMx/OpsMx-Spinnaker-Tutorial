@@ -1,7 +1,7 @@
 
 Packer Additional parameters
 ---------------------------- 
--machine-readable -var aws_access_key=your_aws_access_key -var "aws_secret_key=your_aws_secret_key"
+-machine-readable -var aws_access_key=your_aws_access_key -var aws_secret_key=your_aws_secret_key
 
 Packer Template Text
 --------------------
